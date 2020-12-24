@@ -14,4 +14,4 @@ the project is named as citp using Paddlepaddle platform to train pics and ident
  > you can use infer-multi to indentify new pics in one folder   
 * **gui**  
 it can realize the identifacation using screenshot with a gui  
-as it says that, it is really primitive and written for just "we seem to need a gui"
+as it says that, it is really primitive and written for just "it seems that we need a gui"
