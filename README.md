@@ -8,5 +8,6 @@ the project is named as citp using Paddlepaddle platform to train pics and ident
  the program to build the model  
  *process  
  preprocess using gauss filters  
- *read  
+ *infer  
  the file to identify the pic  
+ > you can use infer-multi to indentify new pics in one folder 
