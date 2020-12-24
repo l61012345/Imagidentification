@@ -4,8 +4,9 @@ the project is named as citp using Paddlepaddle platform to train pics and ident
  the a list of the pics dataset will be generated  
  * **mobilenetv1**  
  the file to define the algorithms  
- * **train**
- the program to build the model  
+ * **train**  
+ the program to build the model 
+ >you can use train-timestamp to pin each time for each 100 batch in default 
  * **process**  
  preprocess using gauss filters  
  * **infer**  
