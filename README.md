@@ -5,7 +5,7 @@ the project is named as citp using Paddlepaddle platform to train pics and ident
  *mobilenetv1  
  the file to define the algorithms  
  *train
- the program to build the model
+ the program to build the model  
  *process  
  preprocess using gauss filters  
  *read  
