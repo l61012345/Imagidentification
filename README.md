@@ -11,4 +11,7 @@ the project is named as citp using Paddlepaddle platform to train pics and ident
  preprocess using gauss filters or converting to hsv using process-hsv
  * **infer**  
  the file to identify the pic  
- > you can use infer-multi to indentify new pics in one folder 
+ > you can use infer-multi to indentify new pics in one folder   
+* **gui**  
+it can realize the identifacation using screenshot with a gui  
+as it says that, it is really primitive and written for just "we seems to need a gui"
