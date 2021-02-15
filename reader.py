@@ -35,7 +35,7 @@ def train_mapper(sample):
         img = img[(2, 1, 0), :, :] / 255.0
         return img, int(label)
     except:
-        print("%s 该图片错误，请删除该图片并重新创建图像数据列表" % img_path)
+        print("%s :the image has damaged，please delete this image and recreate the list file." % img_path)
 # 获取训练的reader
 def train_reader(train_list_path, crop_size, resize_size):
     father_path = os.path.dirname(train_list_path)

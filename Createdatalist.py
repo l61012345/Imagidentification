@@ -1,5 +1,4 @@
 # coding=utf-8
-#创建列表
 import os
 import json
 
@@ -33,7 +32,8 @@ class CreateDataList:
             test_sum = 0
             trainer_sum = 0
             # 把生产的数据列表都放在自己的总类别文件夹中
-            data_list_path = "E:/paddle/data/%s/" % father_path
+            data_list_path = "E:/paddle/list/" 
+            #data_list_path = "E:/paddle/data/%s/" % father_path
             # 统计每个类别有多少张图片
             class_sum = 0
             # 获取类别路径
@@ -80,4 +80,4 @@ class CreateDataList:
 
 if __name__ == '__main__':
     createDataList = CreateDataList()
-    createDataList.createDataList('E:/paddle/data/images/redblood/')
+    createDataList.createDataList('E:/paddle/TRAIN') #装四类文件夹的地址/paddle/train
